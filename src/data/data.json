@@ -1,0 +1,154 @@
+{
+  "Header": {
+    "title": "We are Phishield-Mails",
+    "paragraph": "Phishield-Mails offers advanced email protection to safeguard your business from phishing attacks, malware, and online threats. Our intelligent filtering system detects and blocks malicious emails, ensuring your communications remain secure and your data stays protected. Trust Phishield-Mails for a safer, smarter email experience"
+  },
+  "About": {
+    "paragraph": "Phishield-Mails is a cutting-edge email security solution designed to protect businesses from phishing attacks, malware, and other online threats. Our AI-powered system ensures safe and reliable email communications, keeping your data secure and your business operations smooth.",
+   "Why": [
+    "Advanced threat detection with AI-powered technology",
+    "24/7 monitoring and instant threat alerts",
+    "Customizable security policies to fit your organization",
+    "Expert support team ensuring seamless user experience"
+],
+"Why2": [
+    "Robust phishing and malware filtering system",
+    "Continuous updates to tackle emerging threats",
+    "Tailored solutions for compliance and security needs",
+    "Dedicated cybersecurity experts focused on client satisfaction"
+]
+
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+ "Services": [
+    {
+        "icon": "fa fa-shield",
+        "name": "Phishing & Malware Protection",
+        "text": "Our advanced filtering system detects and blocks phishing attempts and malware, ensuring your emails are safe and secure."
+    },
+    {
+        "icon": "fa fa-bell",
+        "name": "Real-Time Alerts & Monitoring",
+        "text": "Get instant notifications and continuous monitoring to protect your email system 24/7 against any security threats."
+    },
+    {
+        "icon": "fa fa-cogs",
+        "name": "Customizable Security Policies",
+        "text": "Tailor security settings to meet the specific needs and compliance requirements of your business, offering a personalized protection plan."
+    }
+],
+
+
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Pancham Mehta",
+      "job": "Director"
+      
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Priyanshu Raj",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Vinit Kumar Singh",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "C. Bala Naveen",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Shivam Priyadarshi",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Varanasi < U.P. > ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Phishing & Malware Protection",
+      "text": "AI-driven detection and robust filtering to block phishing attempts and malicious content in real time."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Customizable Security Policies",
+      "text": "Tailored settings to match your organization’s unique security needs and compliance standards."
+    },
+    {
+      
+      "icon": "fa fa-group",
+      "title": "Expert Team Support",
+      "text": "Cybersecurity specialists providing continuous updates and a customer-centric approach for a seamless experience."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Real-Time Alerts & Monitoring",
+      "text": "Instant threat notifications with 24/7 monitoring to keep your email system secure."
+    }
+  ]
+}
+
+
+
+
+
+
+
