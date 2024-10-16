@@ -1,0 +1,171 @@
+/* Basic Reset */
+@font-face {
+  font-family: "Uzi";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uzicute";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  
+ 
+}
+#loader {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+.container {
+  /* height: 400px;
+  width: 450px; */
+  border: none;
+  border-radius: 1rem;
+  background-color: #fff;
+  display: flex;
+}
+
+.sidebar {
+  font-family: 'Uzicute';
+  font-weight: bold;
+  width: 60px;
+  height: 50%;
+  background-color: #690303;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 2rem;
+  transition: width .75s ease;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: space-between; /* Distribute items with equal space */
+  align-items: center;
+  margin: 10px; /* Margin of 10px on each side */
+}
+
+
+
+
+.sidebar:hover {
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+li {
+  padding: 10px 10px;
+  border-bottom: 1px solid #444;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #444;
+}
+
+.nav-link {
+  display: inline-flex;
+  column-gap: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.item-txt {
+  padding-left: .5rem;
+}
+
+.attribute {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+      width: 350px;
+  }
+}
+.content {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adds space between the elements */
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+#email-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#email-details {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#loader {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  margin: 5px; /* Adds some space between buttons */
+}
+
+button.scan {
+  background-color: #007bff; /* Blue color for scan */
+}
+
+button.delete {
+  background-color: #dc3545; /* Red color for delete */
+}
+
+button.spam {
+  background-color: #ffc107; /* Yellow color for move to spam */
+}

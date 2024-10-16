@@ -9,7 +9,9 @@ import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
+import Login from "./components/login";
 import SmoothScroll from "smooth-scroll";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

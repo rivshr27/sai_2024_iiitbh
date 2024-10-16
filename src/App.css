@@ -1,11 +1,155 @@
+@font-face {
+  font-family: "Uzi";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uzicute";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#header{
+  font-family: 'Uzicute';
+  font-family: bold;
+}
+
+#team {
+
+  padding: 35px;
+  margin-bottom: 30px;
+  flex-basis: 50%;
+  /* font-family: 'Uzicute'; */
+  max-width:70%;
+  width: 980px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  JUSTIFY-CONTENT:SPACE-BETWEEN;
+  gap: 100px;
+  
+
+ 
+}
+#team.member-1{
+  margin-bottom:95px;
+  position: relative;
+}
+
+.member-2{
+  margin-top: 95px;
+  position: relative;
+  font-family: "Uzicute";
+}
+.member-2.social-menu ul{
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.member-3{
+  margin-bottom:95px;
+  position: relative;
+}
+.member-4{
+  margin-bottom:95px;
+  position: relative;
+}
+.member-5{
+  margin-top:95px;
+  position: relative;
+}
+
+.thumbnail {
+  border: none;
+  text-align: center;
+  font-family: 'Uzicute';
+}
+
+#team-img {
+
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+
+
+.caption h4 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.position {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.social-menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-menu li {
+  margin: 0 5px;
+}
+
+.social-menu a {
+  font-size: 20px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.social-menu a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .team {
+    flex: 0 0 45%; /* Each member takes up 45% of the row on tablet */
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .team {
+    flex: 0 0 100%; /* Each member takes up the full row on mobile */
+    max-width: 100%;
+  }
+}
+#contact{
+  background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(4, 13, 113) 100%);
+}
+#services{
+  background: linear-gradient(18deg, rgba(0, 0, 0, 1) 35%, rgb(4, 13, 113) 100%);
+}
+
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
     width: 111%;
   }
+
   #about,
   #services,
-  #testimonials,
+
   #team,
   #contact,
   #footer {

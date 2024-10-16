@@ -84,35 +84,49 @@
     }
 ],
 
-
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "Pancham Mehta",
-      "job": "Director"
-      
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Priyanshu Raj",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Vinit Kumar Singh",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "C. Bala Naveen",
-      "job": "Project Manager"
-    },
-    {
-      "img": "img/team/05.jpg",
-      "name": "Shivam Priyadarshi",
-      "job": "Project Manager"
-    }
-  ],
+"Team": [
+  {
+    "img": "img/team/01.jpg",
+    "name": "Pancham Mehta",
+    "job": "Director",
+    "github": "https://github.com/pancham1305",
+    "instagram": "https://instagram.com/pancham",
+    "linkedin": "https://in.linkedin.com/in/pancham-mehta-151148236"
+  },
+  {
+    "img": "img/team/02.jpg",
+    "name": "Priyanshu Raj",
+    "job": "Senior Designer",
+    "github": "https://github.com/RisingMortal",
+    "instagram": "https://instagram.com/priyanshu",
+    "linkedin": "https://www.linkedin.com/in/itsimmortal/"
+  },
+  {
+    "img": "img/team/03.jpg",
+    "name": "Vinit Kumar Singh",
+    "job": "Senior Designer",
+    "github": "https://github.com/rivshr27",
+    "instagram": "https://instagram.com/viiniiit.iaa",
+    "linkedin": "https://www.linkedin.com/in/rivshr27/"
+  },
+  {
+    "img": "img/team/04.jpg",
+    "name": "C. Bala Naveen",
+    "job": "Project Manager",
+    "github": "https://github.com/Naaawiin",
+    "instagram": "https://www.instagram.com/naaawinn/profilecard/?igsh=ZWNpNjdlNDB4OW82",
+    "linkedin": "https://www.linkedin.com/in/bala-naveen-cheedi-80584523a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "img": "img/team/05.jpg",
+    "name": "Shivam Priyadarshi",
+    "job": "Project Manager",
+    "github": "https://github.com/shivam",
+    "instagram": "https://www.instagram.com/shivam_______724?igsh=MWhmMXZhZHZmOGZuYg==",
+    "linkedin": "https://www.linkedin.com/in/shivam-srivastava-5b886a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+]
+,
   "Contact": {
     "address": "Varanasi < U.P. > ",
     "phone": "+1 123 456 1234",

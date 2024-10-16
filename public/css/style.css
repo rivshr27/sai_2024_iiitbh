@@ -1,9 +1,22 @@
+@font-face {
+  font-family: "Uzi";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzi-stylish.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uzicute";
+  src: url("https://raw.githubusercontent.com/vickkie/uzitrake/main/fonts/Uzicute.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Uzicute";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: #8f8c8c;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -14,7 +27,7 @@ h4 {
   font-family: "Raleway", sans-serif;
 }
 h2 {
-  text-transform: uppercase;
+  font-family: "Uzicute";
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
@@ -43,7 +56,7 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #1e305c;
   font-weight: 400;
 }
 a:hover,
@@ -81,14 +94,14 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Uzicute";
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Uzicute";
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -104,7 +117,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   content: "";
   transition: width 0.2s;
 }
@@ -138,7 +151,7 @@ hr {
   border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #000104;
 }
 .section-title {
   margin-bottom: 70px;
@@ -167,7 +180,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #2b37a8 0%, #1e4b7b 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -205,6 +218,7 @@ a:focus,
 }
 /* Header Section */
 .intro {
+  font-family: "EB Garamond", serif;
   display: table;
   width: 100%;
   padding: 0;
@@ -219,7 +233,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -257,7 +271,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2b37a8 0%, #1e4b7b 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -334,7 +348,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2b37a8 0%, #1e4b7b 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -350,6 +364,8 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -399,55 +415,27 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
+
+
 /* Team Section */
 #team {
   padding: 100px 0;
+  
+  
+  
 }
 #team h4 {
   margin: 5px 0;
+  font-family: 'Uzicute';
 }
 #team .team-img {
-  width: 240px;
+
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+
+  
+ 
+
 }
 #team .thumbnail {
   background: transparent;
@@ -457,6 +445,14 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+
+
+
+
+
+
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -470,6 +466,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
+ 
   color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -485,6 +482,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
+  font-family: "Alegreya", serif;
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;

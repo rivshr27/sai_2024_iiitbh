@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mail.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Email Clone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#" class="nav-link folder-btn" data-folder="inbox">
+                        <i class="fas fa-inbox"></i>
+                        <span class="item-txt">Inbox</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link folder-btn" data-folder="sent">
+                        <i class="fas fa-paper-plane"></i>
+                        <span class="item-txt">Sent</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link folder-btn" data-folder="trash">
+                        <i class="fas fa-trash"></i>
+                        <span class="item-txt">Trash</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link folder-btn" data-folder="spam">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span class="item-txt">Spam</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Emails</h2>
+            <ul id="email-list"></ul>
+            <div id="email-details"></div>
+            <!-- Loader element -->
+            <div id="loader" style="display: none;">Scanning...</div>
+        </div>
+    </div>
+    <script src="mail.js"></script>
+</body>
+</html>
