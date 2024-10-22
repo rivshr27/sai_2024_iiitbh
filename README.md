@@ -12,7 +12,7 @@
 
 A sophisticated web application built to detect and manage email spam threats using AI-based filtering and classification. Designed with a sleek and user-friendly interface, this system efficiently handles email analysis, categorization, and management, providing a seamless experience for users. Phishield Mails combines AI-powered backend capabilities with a beautiful frontend, focusing on security and ease of use.
 
-![Phishield Mails Home](https://github.com/rivshr27/Phishield-Mails/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.03%E2%80%AFPM.png)
+![Phishield Mails Home](https://github.com/rivshr27/sai_2024_iiitbh/blob/f7da2d0a34e4aa7ab7dfc65708f6a015704a87b1/deploy-images/Screenshot%202024-10-22%20at%208.08.44%E2%80%AFPM.png)
 
 ## Features of Phishield Mails 🚀
 
@@ -21,10 +21,12 @@ A sophisticated web application built to detect and manage email spam threats us
   - **Below Images Show Dashboard and Additional Features:**
   
     - **Service Overview**
-      ![Service Overview](https://github.com/rivshr27/Phishield-Mails/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.22.51%E2%80%AFPM.png)
+      ![Service Overview](https://github.com/rivshr27/sai_2024_iiitbh/blob/a26df6778fabce5434a62f0f0d11778acf66762a/deploy-images/Screenshot%202024-10-22%20at%208.08.57%E2%80%AFPM.png)
 
     - **AI-Driven Email Analysis**
-      ![Email Analysis](https://github.com/rivshr27/Phishield-Mails/blob/main/deploy-images/Screenshot%202024-08-16%20at%206.24.28%E2%80%AFPM.png)
+    - Email Display
+    - ![Contains emails of the user](https://github.com/rivshr27/sai_2024_iiitbh/blob/a26df6778fabce5434a62f0f0d11778acf66762a/deploy-images/Screenshot%202024-10-22%20at%208.08.17%E2%80%AFPM.png)
+      ![Email Analysis](https://github.com/rivshr27/sai_2024_iiitbh/blob/a26df6778fabce5434a62f0f0d11778acf66762a/deploy-images/Screenshot%202024-10-22%20at%208.08.04%E2%80%AFPM.png)
 
 - **Backend Integration:** A powerful backend built with Express, Node.js, and AI integration to classify emails and detect potential spam.
 
@@ -50,7 +52,7 @@ The application not only enhances email security but also focuses on user experi
 
 Need assistance or have a query? Reach out to the Phishield Mails team through our dedicated contact section. Our support staff is available to help you with any concerns regarding email analysis, spam detection, or general inquiries.
 
-![Phishield Mails Contact](https://github.com/rivshr27/Phishield-Mails/blob/main/deploy-images/Screenshot%202024-08-13%20at%206.33.27%E2%80%AFPM.png)
+![Phishield Mails Contact](https://github.com/rivshr27/sai_2024_iiitbh/blob/a26df6778fabce5434a62f0f0d11778acf66762a/deploy-images/Screenshot%202024-10-22%20at%208.09.09%E2%80%AFPM.png)
 
 We aim to provide prompt and reliable support, ensuring that you have a seamless experience with Phishield Mails.
 
