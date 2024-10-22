@@ -70,7 +70,9 @@
     {
         "icon": "fa fa-shield",
         "name": "Phishing & Malware Protection",
-        "text": "Our advanced filtering system detects and blocks phishing attempts and malware, ensuring your emails are safe and secure."
+        "text": "Our advanced filtering system detects and blocks phishing attempts and malware, ensuring your emails are safe and secure.",
+        "link": "https://phishield-mail.vercel.app"
+
     },
     {
         "icon": "fa fa-bell",
