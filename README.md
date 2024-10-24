@@ -12,7 +12,7 @@
 
 A sophisticated web application built to detect and manage email spam threats using AI-based filtering and classification. Designed with a sleek and user-friendly interface, this system efficiently handles email analysis, categorization, and management, providing a seamless experience for users. Phishield Mails combines AI-powered backend capabilities with a beautiful frontend, focusing on security and ease of use.
 
-![Phishield Mails Home](https://github.com/rivshr27/sai_2024_iiitbh/blob/f7da2d0a34e4aa7ab7dfc65708f6a015704a87b1/deploy-images/Screenshot%202024-10-22%20at%208.08.44%E2%80%AFPM.png)
+![Phishield Mails Home](https://github.com/rivshr27/sai_2024_iiitbh/blob/main/deploy-images/Screenshot%202024-10-25%20at%202.20.18%E2%80%AFAM.png)
 
 ## Features of Phishield Mails 🚀
 
