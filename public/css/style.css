@@ -219,44 +219,56 @@ a:focus,
 /* Header Section */
 .intro {
   font-family: 'Uzicute';
-  display: table;
+  font-size: 3.5em;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-end; /* Align content to the bottom vertically */
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.png) center center no-repeat;
   background-color: #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  position: relative;
+  min-height: 100vh; /* Ensure the intro section fills the viewport */
 }
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
-.intro h1 {
 
+.intro-text {
+  text-align: center;
+  margin-bottom: 30px; /* Adjust bottom margin to fine-tune vertical position */
+  /* Optional: Semi-transparent background for better visibility */
+  /* Padding around the text */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+.intro h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
   margin-bottom: 10px;
 }
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
+
 .intro p {
   font-family: 'Times New Roman', Times, serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
+
+
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+ 
   text-align: center;
 }
 /* Features Section */
